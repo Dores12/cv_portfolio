@@ -1,0 +1,15 @@
+:root {
+    --header-color: rgb(33, 109, 67);
+    --text-color: rgb(241, 241, 241);
+    --background-color: rgb(109, 109, 109);
+    --app-color: rgb(61, 61, 61);
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+.app {
+    background-color: var(--app-color);
+}
