@@ -9,13 +9,13 @@ body {
     background-color: var(--background-color);
     color: var(--text-color);
     font-family: "Roboto", sans-serif;
-    letter-spacing: 1px;
-    font-size: 1.4rem;
+    letter-spacing: 2px;
+    font-size: 1rem;
 }
 
 .app {
     background-color: var(--app-color);
-    max-width: 85vw;
+    max-width: 90vw;
     min-height: 80vh;
     border-radius: 8px;
     margin: 0 auto;
@@ -25,10 +25,26 @@ body {
 
 .nav-bar {
     list-style: none;
+    padding-top: 2.2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-left: 4.375rem;
+    padding-right: 5rem;
 }
 
 .nav-bar a {
     text-decoration: none;
     color: var(--header-color);
+    margin-right: 2rem;
+}
 
+.firstLi {
+    margin-right: auto;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+}
+
+.firstLi svg {
+    font-size: 1rem;
 }
