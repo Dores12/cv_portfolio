@@ -6,6 +6,7 @@
     <title>Daniel | Tache</title>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
@@ -14,27 +15,50 @@
     <div class="app">
         <ul class="nav-bar">
             <li class="firstLi"><a href="#">Daniel Tache</a></li>
-            <li><a href="#">About Me</a></li>
-            <li><a href="#">Portfolio</a></li>
-            <li><a href="#">CV</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#about-me">About Me</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
 
         <header>
             <div class="photo">
                 <img src="img/african-lion-2888519_1280.jpg" width="350" height="350" alt="portrait">
             </div>
-            <div class="about-me">
+            <div class="intro">
                 <h1 class="animate">Daniel Tache</h1>
-                <h2>I am web developer</h2>
+                <h2>Web developer</h2>
                 <p>Working with <span id="spin"></span></p>
+                <button id="download">Download Resume</button>
             </div>
         </header>
 
         <main>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint suscipit, laudantium sed et sapiente qui repudiandae atque, architecto repellendus odio numquam nobis nemo, animi neque vero. Animi ipsum repellendus esse?</p>
+            <div class="welcome">
+                <div class="js-api">
+                    <div>Weather</div>
+                    <div>Date</div>
+                </div>
+            </div>
+
+            <div id="about-me">
+                <h1>About Me</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, quae numquam incidunt excepturi delectus, temporibus debitis laboriosam iusto dolore sequi, 
+                    expedita blanditiis ex sint distinctio eum sit ducimus placeat quia!</p>
+            </div>
+
+            <div id="portfolio">
+                <h1>Portfolio</h1>
+            </div>
+
+            <div id="education">
+                <h1>Education</h1>
+            </div>
+
+            <div id="contact">
+                <h1>Contact</h1>
+            </div>
         </main>
-    
     </div>
 
 
