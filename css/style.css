@@ -140,6 +140,7 @@ h3 {
     flex-direction: row;
     background-color: var(--app-color2);
     justify-content: center;
+    min-height: 500px;
 }
 
 #about-me img {
@@ -187,6 +188,10 @@ h3 {
 #myInterests h3 {
     text-align: left;
 }
+
+/* my interests */
+
+
 
 /* contact */
 
